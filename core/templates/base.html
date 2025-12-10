@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mass Media Portfolio</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body class="bg-black text-white">
+
+    <nav class="p-6 flex justify-between text-xl">
+        <a href="/" class="font-bold">Portfolio</a>
+        <div class="space-x-6">
+            <a href="/gallery/">Gallery</a>
+            <a href="/contact/">Contact</a>
+        </div>
+    </nav>
+
+    {% block content %}{% endblock %}
+
+    <script src="/static/js/app.js"></script>
+</body>
+</html>
