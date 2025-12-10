@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="p-20 max-w-3xl mx-auto">
+    <img src="{{ project.thumbnail.url }}" class="rounded-xl mb-6">
+    <h1 class="text-5xl font-bold">{{ project.title }}</h1>
+
+    <p class="mt-6 text-lg text-gray-300">{{ project.description }}</p>
+
+</div>
+
+{% endblock %}
