@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from .models import Project, GalleryItem
 from .forms import ContactForm
-from bolt import run_flow
+
 
 def index(request):
     return render(request, "portfolio/index.html", {
